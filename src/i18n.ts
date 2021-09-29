@@ -12,6 +12,7 @@ const resources = {
                 currency: "Currency",
                 country: "Country",
                 exchangeRate: "Exchange Rate",
+                exchangeRateNote: "(per 1 EUR)",
             },
             search: "Lookup exchange rates...",
             searchLabel: "Fulltext Search",
