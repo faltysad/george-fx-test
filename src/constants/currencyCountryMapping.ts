@@ -85,7 +85,6 @@ export const CURRENCY_COUNTRY_MAPPING: Record<string, string> = {
     JOD: "JO",
     AED: "AE",
     RWF: "RW",
-    EUR: "AD",
     LSL: "LS",
     DKK: "DK",
     CAD: "CA",
