@@ -4,6 +4,14 @@ on:
     branches:
       - master
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install Packages
+      run: npm install
+    - name: Run unit tests
+      run: npm run test
   deploy:
     runs-on: ubuntu-latest
     strategy:

@@ -41,7 +41,7 @@
     "scripts": {
         "start": "craco start",
         "build": "craco build",
-        "test": "craco test",
+        "test": "craco test --testPathIgnorePatterns=./e2e/*",
         "test:e2e": "craco test --testPathPattern=.*e2e.test.ts$",
         "format": "prettier --write \"**/*.+(js|jsx|ts|tsx|json|css|md)\"",
         "eject": "react-scripts eject"
