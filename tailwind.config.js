@@ -8,6 +8,7 @@ module.exports = {
             },
             gridTemplateColumns: {
                 table: "300px 1fr 150px",
+                tableSmall: "3fr 1fr 1fr",
                 flagWrapper: "70px 1fr",
             },
         },

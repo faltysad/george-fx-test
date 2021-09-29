@@ -16,7 +16,7 @@ const ListItem = (props: IListItemProps) => {
     return (
         <div
             id="LIST_ITEM"
-            className="grid grid-cols-table border-0 border-b border-solid items-center"
+            className="grid grid-cols-tableSmall md:grid-cols-table border-0 border-b border-solid items-center"
         >
             <div className="grid grid-cols-flagWrapper items-center">
                 <div className="p-8 pl-0 py-2">
