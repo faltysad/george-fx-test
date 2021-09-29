@@ -17,7 +17,11 @@
     "@types/node": "^12.20.27",
     "@types/react": "^17.0.24",
     "@types/react-dom": "^17.0.9",
-    "gh-pages": "^3.2.3"
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "gh-pages": "^3.2.3",
+    "prettier": "^2.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -25,10 +29,12 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "format": "prettier --write \"**/*.+(js|jsx|ts|tsx|css|md)\"",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
+      "plugin:prettier/recommended",
       "react-app",
       "react-app/jest"
     ]
