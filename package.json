@@ -2,6 +2,7 @@
     "name": "george-fx-test",
     "version": "0.1.0",
     "private": true,
+    "homepage": ".",
     "dependencies": {
         "@craco/craco": "^6.3.0",
         "axios": "^0.21.4",
